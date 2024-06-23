@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sample Title</title>
+<style>
+    .MainContainer {
+        display: flex;
+        align-items: center;
+    }
+
+    .SecondaryContainer {
+        text-align: center;
+        padding: 10px;
+        margin: 0;
+        box-sizing: border-box;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .red-small {
+        background-color: red;
+        width: 10%;
+        height: 50px;
+    }
+
+    .red-large {
+        background-color: red;
+        width: 20%;
+        height: 50px;
+    }
+
+    .yellow-large {
+        background-color: yellow;
+        width: 5%;
+        height: 50px;
+    }
+</style>
+</head>
+<body>
+    <div class="MainContainer">
+        <div class="SecondaryContainer red-small"></div>
+        <div class="SecondaryContainer yellow-large">Content 1</div>
+        <div class="SecondaryContainer red-large"></div>
+        <div class="SecondaryContainer yellow-large">Content 2</div>
+        <div class="SecondaryContainer red-large"></div>
+        <div class="SecondaryContainer yellow-large">Content 3</div>
+        <div class="SecondaryContainer red-small"></div>
+    </div>
+</body>
+</html>
